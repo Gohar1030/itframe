@@ -3,15 +3,22 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { AgmCoreModule } from '@agm/core';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCKsJb7Xujvy3lZfkkJXzxwbRiTmqGXk7M'
+    })
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })

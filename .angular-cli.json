@@ -21,7 +21,13 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [  "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/nicescroll/dist/jquery.nicescroll.min.js",
+        "../node_modules/jquery-countto/jquery.countTo.js",
+        "../node_modules/wowjs/dist/wow.min.js"
+
+
+        ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
